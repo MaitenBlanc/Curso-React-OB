@@ -12,28 +12,30 @@ import GreetingStyled from './components/pure/greetingStyled';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        {/* Componente propio Greeting.jsx */}
-        {/* <Greeting name={"Martín"}></Greeting> */}
+      {/* <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" /> */}
+      {/* Componente propio Greeting.jsx */}
+      {/* <Greeting name={"Martín"}></Greeting> */}
 
-        {/* Componente de ejemplo funcional */}
-        {/* <GreetingF name="Martín"></GreetingF> */}
+      {/* Componente de ejemplo funcional */}
+      {/* <GreetingF name="Martín"></GreetingF> */}
 
-        {/* Componente de Listado de tareas */}
-        {/* <TaskListComponent></TaskListComponent> */}
+      {/* Componente de Listado de tareas */}
+      {/* <TaskListComponent></TaskListComponent> */}
 
-        {/* Ejemplos de uso de HOOKS */}
-        {/* <Ejemplo1></Ejemplo1> */}
-        {/* <Ejemplo2></Ejemplo2> */}
-        {/* <MiComponenteConContexto></MiComponenteConContexto> */}
-        {/* Todo lo que hay acá es tratado como props.children */}
-        {/* <Ejemplo4 nombre='Martín'>
+      {/* Ejemplos de uso de HOOKS */}
+      {/* <Ejemplo1></Ejemplo1> */}
+      {/* <Ejemplo2></Ejemplo2> */}
+      {/* <MiComponenteConContexto></MiComponenteConContexto> */}
+      {/* Todo lo que hay acá es tratado como props.children */}
+      {/* <Ejemplo4 nombre='Martín'>
         <h3>Contenido del props.children</h3>
         </Ejemplo4> */}
 
-        <GreetingStyled name='Martín'></GreetingStyled>
-      </header>
+      {/* <GreetingStyled name='Martín'></GreetingStyled> */}
+      {/* </header> */}
+
+      <TaskListComponent></TaskListComponent>
     </div>
   );
 }
